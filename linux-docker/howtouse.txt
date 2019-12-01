@@ -1,0 +1,10 @@
+how to use
+# ./auto.sh
+
+maybe useful
+add deb: sudo dpkg -I xx.deb
+docker use:
+docker save ID > xxx.tar
+docker load < xxx.tar
+docker rmi ID
+docker run -it –privileged -v /home/path:/home/docker/path -p 8080:80 xxx bash 
